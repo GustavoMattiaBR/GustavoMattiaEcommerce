@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Produtos - Gustavo Mattia Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Gustavo Mattia Store</h1>
+
+        <nav>
+
+            <a href="/">Início</a>
+
+            <a href="/produtos.html">
+                Produtos
+            </a>
+
+            <a href="/cliente.html">
+                Minha Conta
+            </a>
+
+            <a href="/admin.html">
+                Administração
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+    <section class="filtros">
+        <h2>Buscar produtos</h2>
+
+        <div class="filtros-form">
+            <input type="text" id="filtroMarca" placeholder="Marca">
+
+            <input type="text" id="filtroModelo" placeholder="Modelo">
+
+            <input type="number" id="filtroPrecoMin" placeholder="Preço mínimo">
+
+            <input type="number" id="filtroPrecoMax" placeholder="Preço máximo">
+
+            <button onclick="buscarProdutos()">Buscar</button>
+            <button onclick="limparFiltros()">Limpar</button>
+        </div>
+    </section>
+
+    <div id="listaProdutos" class="produtos-grid"></div>
+</main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "gustavo-mattia-ecommerce",
+  "version": "1.0.0",
+  "description": "E-commerce utilizando Azure Blob Storage e Azure Table Storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
